@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # LivingLink-Craftiq
 
 ## Project Title
@@ -12,8 +12,7 @@ LivingLink is a modern residential society management platform that connects res
 3.  [Tech Stack](#tech-stack)
 4.  [Installation Setup](#installation-setup)
 5.  [Screenshots](#screenshots)
-6.  [Team Members](#team-members)
-7.   [License](#license)
+6.   [License](#license)
 
 ## About The Project
 LivingLink is designed to replace outdated, analog methods of community management with a streamlined, digital solution. It eliminates the need for physical notice boards, paper logbooks, and manual payment tracking by offering a centralized platform for all society-related activities.
@@ -112,9 +111,3 @@ Open your browser and navigate to http://localhost:3000
 
   
 
-
-## License
-Distributed under the MIT License. See LICENSE for more information.
-=======
-# LivingLink
->>>>>>> 7fc20ad9aae0abff85d5f7b0bfeb0d1940c4e5f2
