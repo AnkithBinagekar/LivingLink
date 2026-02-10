@@ -31,15 +31,14 @@ export default function RegisterPage() {
     body: JSON.stringify(form),
   }
 );
-
-      const data = await res.json();
+   const data = await res.json();
       if (!res.ok) throw new Error(data.message || 'Registration failed');
       setSuccess('Registration successful! You can now login.');
       setTimeout(() => navigate('/login'), 2000);
     } catch (err) {
       setError(err.message);
     }
-  }
+  } 
 
   return (
     <div className="auth-page">
