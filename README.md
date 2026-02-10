@@ -56,7 +56,7 @@ Authentication:
 
 ## Installation Setup
 ### 1. Clone the repository
-git clone https://github.com/SalikaShaikh/LivingLink-Craftiq.git
+git clone https://github.com/AnkithBinagekar/LivingLink.git
 
 cd LivingLink
 
