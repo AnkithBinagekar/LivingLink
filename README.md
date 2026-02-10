@@ -34,16 +34,6 @@ Our goal is to ensure smooth operations, enhance security, and foster a more con
 
 - Member & Staff Directory: A central directory for all residents and society staff.
 
-
-## Tech Stack
-Of course. A good README is essential for any project. I will create a comprehensive README.md file for you, incorporating the details you provided and adding standard sections like Tech Stack, Installation, and Features based on our previous conversations and the repository you shared.
-
-Here is the complete, updated README file content. You can copy and paste this directly into the README.md file in your GitHub repository.
-
-LivingLink-Craftiq
-A modern residential society management platform that connects residents, staff, and committee members through a single, easy-to-use website.
-
-
 ## Tech Stack
 This project is built using modern web technologies:
 
@@ -110,5 +100,6 @@ Open your browser and navigate to http://localhost:3000
 
 
   
+
 
 
