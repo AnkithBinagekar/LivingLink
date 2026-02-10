@@ -1,5 +1,5 @@
 
-# LivingLink-Craftiq
+# LivingLink
 
 ## Project Title
 LivingLink
@@ -110,4 +110,5 @@ Open your browser and navigate to http://localhost:3000
 
 
   
+
 
