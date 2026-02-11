@@ -17,7 +17,7 @@ https://livinglink.onrender.com
 Swagger API Docs:
 https://livinglink.onrender.com/api-docs
 
-##Architecture
+## Architecture
 React Frontend (Vercel)
         ↓
 Node.js + Express API (Render)
@@ -126,6 +126,7 @@ Open your browser and navigate to http://localhost:3000
 
 
   
+
 
 
 
