@@ -6,6 +6,24 @@ LivingLink
 
 LivingLink is a modern residential society management platform that connects residents, staff, and committee members through a single, easy to use website. It offers digital notices, online payment of dues, facility booking, complaint tracking, visitor management, and transparent financial records.LivingLink ensures smooth operations and a more organized community life.
 
+## Live Demo
+
+Frontend (Vercel):
+https://your-vercel-url.vercel.app
+
+Backend API (Render):
+https://livinglink.onrender.com
+
+Swagger API Docs:
+https://livinglink.onrender.com/api-docs
+
+🏗 Architecture
+React Frontend (Vercel)
+        ↓
+Node.js + Express API (Render)
+        ↓
+MongoDB Atlas (Cloud Database)
+
 ## Table of Contents
 1. [About The Project](#about-the-project)
 2. [Key Features](#key-features)
@@ -15,24 +33,28 @@ LivingLink is a modern residential society management platform that connects res
 6.   [License](#license)
 
 ## About The Project
-LivingLink is designed to replace outdated, analog methods of community management with a streamlined, digital solution. It eliminates the need for physical notice boards, paper logbooks, and manual payment tracking by offering a centralized platform for all society-related activities.
+LivingLink replaces outdated manual and paper-based society management processes with a centralized digital platform. It improves communication, transparency, and efficiency by providing a single system for all residential society operations.
 
-Our goal is to ensure smooth operations, enhance security, and foster a more connected and organized community life for everyone involved.
+The platform supports multiple roles such as residents, secretaries, treasurers, security guards, and maintenance staff with role-based access control.
 
 ## Key Features
-- Visitor Management: A secure and efficient system for pre-approving and tracking visitors, replacing manual gate registers.
+- JWT-based authentication and role-based authorization
 
-- Digital Notice Board: Instantly broadcast important updates and notices to all residents and staff digitally.
+- Digital notice board for announcements
 
-- Complaint Tracking: A structured system for residents to raise and track complaints, ensuring timely resolution.
+- Visitor management and approval system
 
-- Facility Booking: Easily book common facilities like clubhouses, parks, or event halls online.
+- Complaint registration and tracking
 
-- Online Dues Payment: Integrated payment gateway for residents to pay their maintenance dues seamlessly.
+- Facility booking system
 
-- Transparent Financials: Access to clear and transparent financial records and society expenses.
+- Online maintenance dues payment
 
-- Member & Staff Directory: A central directory for all residents and society staff.
+- Transparent financial records
+
+- Member and staff directory
+
+- Swagger API documentation
 
 ## Tech Stack
 This project is built using modern web technologies:
@@ -52,7 +74,11 @@ Database:
 
 Authentication:
 - JSON Web Tokens (JWT)
+- bcrypt password hashing
 
+Deployment:
+- Vercel (Frontend)
+- Render (Backend)
 
 ## Installation Setup
 ### 1. Clone the repository
@@ -100,6 +126,7 @@ Open your browser and navigate to http://localhost:3000
 
 
   
+
 
 
 
