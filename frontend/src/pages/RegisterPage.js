@@ -31,7 +31,10 @@ export default function RegisterPage() {
     body: JSON.stringify(form),
   }
 );
-   const data = await res.json();
+   //const data = await res.json();
+   const text = await res.text();
+const data = text ? JSON.parse(text) : {};
+
       if (!res.ok) throw new Error(data.message || 'Registration failed');
       setSuccess('Registration successful! You can now login.');
       setTimeout(() => navigate('/login'), 2000);
