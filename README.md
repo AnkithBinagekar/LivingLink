@@ -9,13 +9,8 @@ LivingLink is a modern residential society management platform that connects res
 ## Live Demo
 
 Frontend (Vercel):
-[https://your-vercel-url.vercel.app](https://living-link.vercel.app/)
+[https://living-link.vercel.app/](https://living-link.vercel.app/)
 
-Backend API (Render):
-https://livinglink.onrender.com
-
-Swagger API Docs:
-https://livinglink.onrender.com/api-docs
 
 ## Architecture
 React Frontend (Vercel)
